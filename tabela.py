@@ -15,3 +15,4 @@ else:
     tags = res.findAll("table", {"class": "TABELA"})
     for tag in tags:
         print(tag.getText())
+    
