@@ -12,7 +12,7 @@ try:
 except HTTPError as html:
     print(html)
 except URLError:
-    print("Servidor fora do ar ou dominio incorreto")
+    print("Servidor fora do ar ou dominio incorreto, verificar link na variavel html")
 else:
     procura = BeautifulSoup(html.read(), "html5lib")
     extrai = procura.findAll("table", {"class": "TABELA"})
