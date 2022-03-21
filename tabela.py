@@ -1,7 +1,7 @@
 #Importação das bibliotecas utilizadas
 from cgitb import html #Biblioteca
 from urllib.request import urlopen #Abre a pagina html
-from urllib.error import HTTPError
+from urllib.error import HTTPError #Verifica se o link está certo e pede a para urlopen abrir a página
 from urllib.error import URLError  #Informa se ocorre erro na requisição
 from bs4 import BeautifulSoup #Biblioteca que vai fazer o web scraping e capturar os dados que queremos
 
