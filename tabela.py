@@ -14,9 +14,9 @@ except HTTPError as html:
 except URLError:
     print("Servidor fora do ar ou dominio incorreto, verificar link na variavel html")
 else:
-    procura = BeautifulSoup(html.read(), "html5lib")
-    extrai = procura.findAll("table", {"class": "TABELA"})
+    procura = BeautifulSoup(html.read(), "html5lib") #Biblioteca vai procurar dentro da pagina html
+    extrai = procura.findAll("table", {"class": "TABELA"})#Passando os parametros que ela vai procurar no html, tag e classe 
     for tag in extrai:
-        print(tag.getText())
+        print(tag.getText()) #Imprime os dados da tabela
 
     
