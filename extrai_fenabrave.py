@@ -6,7 +6,6 @@ from bs4 import BeautifulSoup
 import csv
 
 html = urlopen("http://www.fenabrave.org.br/pdf/informativo/automatico/dadosregionais_novo.asp?id=Sao%20Paulo&cap=")
-
 soup = BeautifulSoup(html.read(), "html5lib")
 extrai_tabela = soup.findAll("table", {"class": "TABELA"})
 for tag in extrai_tabela:
