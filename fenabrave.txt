@@ -1,0 +1,13 @@
+                          0                         1        2        3            4        5            6           7           8           9                10               11
+0                  Segmentos                 Segmentos     2022     2022         2022     2021         2021  Variação %  Variação %  Variação %  Part. % Acumul.  Part. % Acumul.
+1                  Segmentos                 Segmentos  Fev (A)  Jan (B)  Acumul. (C)  Fev (D)  Acumul. (E)       (A/B)       (A/D)       (C/E)             2022             2021
+2                    (A)Auto                   (A)Auto    20889    21996        42885    32448        64194        -503       -3562       -3319             4413             5328
+3          (B)Comercial Leve         (B)Comercial Leve     3352     4672         8024     5812        11776       -2825       -4233       -3186              826              977
+4                      (A+B)                     (A+B)    24241    26668        50909    38260        75970        -910       -3664       -3299             5238             6305
+5                (C)Caminhão               (C)Caminhão     1398     1935         3333     1814         3425       -2775       -2293        -269              343              284
+6                  (D)Ônibus                 (D)Ônibus      340      299          639      363          900        1371        -634       -2900              066              075
+7                      (C+D)                     (C+D)     1738     2234         3972     2177         4325       -2220       -2017        -816              409              359
+8                    (E)Moto                   (E)Moto    14845    20331        35176    13792        32542       -2698         763         809             3619             2701
+9   (F)Implemento Rodoviário  (F)Implemento Rodoviário     1606     2320         3926     1663         3497       -3078        -343        1227              404              290
+10                    Outros                    Outros     1567     1637         3204     2137         4160        -428       -2667       -2298              330              345
+11                     TOTAL                     TOTAL    43997    53190        97187    58029       120494       -1728       -2418       -1934            10000            10000
