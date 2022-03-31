@@ -1,8 +1,0 @@
-Algoritmo para ser usado futuramente para criar o csv
-
-cria_csv = open('fenabrave_uf.csv','w', newline='', encoding='utf-8')
-
-gravação = csv.writer(cria_csv)
-
-for i in range(5):
-    gravação.writerow([i, i*2, i*3])
