@@ -12,3 +12,7 @@ for tag in extrai_tabela:
         table_str = str(extrai_tabela)
         tabela_pronta = pd.read_html(table_str)[0]
         print(tabela_pronta)
+
+import io
+with io.open('fenabrave.csv', "w", encoding="utf-8") as file:
+    file.write(str(tabela_pronta))

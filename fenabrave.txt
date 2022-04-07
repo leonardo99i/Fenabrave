@@ -1,15 +1,13 @@
-                          0   ...               11
-0                  Segmentos  ...  Part. % Acumul.
-1                  Segmentos  ...             2021
-2                    (A)Auto  ...             5328
-3          (B)Comercial Leve  ...              977
-4                      (A+B)  ...             6305
-5                (C)Caminhão  ...              284
-6                  (D)Ônibus  ...              075
-7                      (C+D)  ...              359
-8                    (E)Moto  ...             2701
-9   (F)Implemento Rodoviário  ...              290
-10                    Outros  ...              345
-11                     TOTAL  ...            10000
-
-[12 rows x 12 columns]
+                          0                         1        2        3            4        5            6           7           8           9                10               11
+0                  Segmentos                 Segmentos     2022     2022         2022     2021         2021  Variação %  Variação %  Variação %  Part. % Acumul.  Part. % Acumul.
+1                  Segmentos                 Segmentos  Mar (A)  Fev (B)  Acumul. (C)  Mar (D)  Acumul. (E)       (A/B)       (A/D)       (C/E)             2022             2021
+2                    (A)Auto                   (A)Auto    27487    21561        71043    35824       100018        2748       -2327       -2897             4396             5423
+3          (B)Comercial Leve         (B)Comercial Leve     4480     3432        12584     6434        18210        3054       -3037       -3090              779              987
+4                      (A+B)                     (A+B)    31967    24993        83627    42258       118228        2790       -2435       -2927             5175             6410
+5                (C)Caminhão               (C)Caminhão     2130     1431         5496     2552         5977        4885       -1654        -805              340              324
+6                  (D)Ônibus                 (D)Ônibus      591      377         1267      317         1217        5676        8644         411              078              066
+7                      (C+D)                     (C+D)     2721     1808         6763     2869         7194        5050        -516        -599              419              390
+8                    (E)Moto                   (E)Moto    24775    15036        60142    14479        47021        6477        7111        2790             3722             2549
+9   (F)Implemento Rodoviário  (F)Implemento Rodoviário     1962     1621         5903     2076         5573        2104        -549         592              365              302
+10                    Outros                    Outros     1933     1587         5157     2262         6422        2180       -1454       -1970              319              348
+11                     TOTAL                     TOTAL    63358    45045       161592    63944       184438        4065        -092       -1239            10000            10000

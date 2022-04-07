@@ -60,7 +60,7 @@ soup_AM = BeautifulSoup(link_AM.read(), "html5lib")
 soup_MT = BeautifulSoup(link_MT.read(), "html5lib")
 soup_BA = BeautifulSoup(link_BA.read(), "html5lib")
 
-extrai_tabela = soup_SP.findAll("table", {"class": "TABELA"})
+extrai_tabela = soup_AC.findAll("table", {"class": "TABELA"})
 for tag in extrai_tabela:
         table_str = str(extrai_tabela)
         tabela_pronta = pd.read_html(table_str)[0]
