@@ -14,5 +14,5 @@ for tag in extrai_tabela:
         print(tabela_pronta)
 
 import io
-with io.open('fenabrave.csv', "w", encoding="utf-8") as file:
+with io.open('UF_SP.csv', "w", encoding="utf-8") as file:
     file.write(str(tabela_pronta))
